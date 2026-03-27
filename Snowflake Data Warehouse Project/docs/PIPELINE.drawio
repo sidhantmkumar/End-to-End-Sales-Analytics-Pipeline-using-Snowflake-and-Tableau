@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="gna9Y74lUBRTvAuaFd2Q">
+    <mxGraphModel dx="786" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-8" edge="1" parent="1" source="tujSQq7mqbEbK8D7mx0d-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tujSQq7mqbEbK8D7mx0d-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Source (TPCH)&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-13" edge="1" parent="1" source="tujSQq7mqbEbK8D7mx0d-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tujSQq7mqbEbK8D7mx0d-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="RAW (Snowflake)" vertex="1">
+          <mxGeometry height="60" width="110" x="335" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-15" edge="1" parent="1" source="tujSQq7mqbEbK8D7mx0d-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tujSQq7mqbEbK8D7mx0d-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=22;" value="&#xa;Streams + Tasks&#xa;&#xa;" vertex="1">
+          <mxGeometry height="30" width="120" x="332.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-20" edge="1" parent="1" source="tujSQq7mqbEbK8D7mx0d-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tujSQq7mqbEbK8D7mx0d-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;STAGING&#xa;&#xa;" vertex="1">
+          <mxGeometry height="50" width="115" x="335" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-16" parent="1" style="whiteSpace=wrap;html=1;" value="&amp;nbsp;ARCHITECTURE&lt;div&gt;PIPELINE&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-22" edge="1" parent="1" source="tujSQq7mqbEbK8D7mx0d-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tujSQq7mqbEbK8D7mx0d-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;&amp;nbsp;ANALYTICS (Star Schema)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="327.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tujSQq7mqbEbK8D7mx0d-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&#xa;Tableau Dashboard&#xa;&#xa;" vertex="1">
+          <mxGeometry height="50" width="115" x="335" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
